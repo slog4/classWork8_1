@@ -2,13 +2,13 @@ package com.company;
 
 public class DocumentWorcer {
 
-    protected void openDocument(){
+    public void openDocument(){
         System.out.println("Документ открыт");
     }
-    protected void editDocument(){
+    public void editDocument(){
         System.out.println("Редактирование документа доступно в версии Про");
     }
-    protected void saveDocument(){
+    public void saveDocument(){
         System.out.println("Сохранение документа доступно в версии Про");
     }
 
